@@ -1,0 +1,81 @@
+
+
+body{
+    width: 100vw;
+    height: 100vw;
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vw;  
+    display: flex;
+}
+
+.seccion-imagen {
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-chat{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    display: flex; /* para usar flexbox*/
+    flex-direction: column; /* para dar la orientacion en flexbox */
+    
+}
+
+.usuario-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.seccion-chat img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.foto-mas-estado {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.nuevo-chat {
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    flex-basis: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-imagen img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+.chat1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+    border: 2px solid black;
+}
+.chat2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
