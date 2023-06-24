@@ -21,6 +21,15 @@ body{
     align-items: center;
 }
 
+.seccion-imagen h2{
+    font-family: 'Raleway', sans-serif;
+    size: 45px;
+}
+
+.seccion-imagen p{
+    text-align: center;
+}
+
 .seccion-chat{
     width: 20%;
     height: 100%;
