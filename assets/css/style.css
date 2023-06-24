@@ -15,7 +15,7 @@ body{
 .seccion-imagen {
     width: 80%;
     height: 100%;
-    background-color: blue;
+    background-color: #E8EBE4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body{
 .seccion-chat{
     width: 20%;
     height: 100%;
-    background-color: red;
+    background-color: #fff;
     display: flex; /* para usar flexbox*/
     flex-direction: column; /* para dar la orientacion en flexbox */
     
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #929292;
 }
 
 .seccion-chat img{
@@ -47,20 +47,22 @@ body{
 .foto-mas-estado {
     display: flex;
     align-items: center;
-    border: 2px solid black;
 
 }
 .nuevo-chat {
-    border: 2px solid black;
     display: flex;
     text-align: center;
     flex-basis: 100px;
     align-items: center;
     justify-content: center;
+    border: 2px solid #929292;
 }
 
 .nuevo-chat button{
-    
+    background-color: #A491D2;
+    border: none;
+    padding: 15px 32px;
+    color: #fff;    
 }
 .seccion-imagen {
     display: flex;
@@ -72,19 +74,13 @@ body{
 .seccion-imagen img{   
     width: 500px;
     height: 500px;
-    border: 2px solid black;
+
 }
 
-.chat1 {
+.chat {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-}
-.chat2{
-    display: flex;
-    justify-content: center;
-    align-items:baseline;
-    border: 2px solid black;
+    border: 2px solid #929292;
 }
 
